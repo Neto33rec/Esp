@@ -19,7 +19,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "By @Neto.33rec";
     Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
-})
+
 
 --//Loop\\--
 while task.wait() do
