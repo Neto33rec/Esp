@@ -14,11 +14,11 @@ local LP = P.LocalPlayer
 local DB = false
 
 --//Notification\\--
-game.StarterGui:SetCore("SendNotification", {
-	Title = "Notification",
-	Text = "Best ESP by @Neto.33rec" ,
-	Button1 = "Shut Up",
-	Duration = math.huge
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "Esp";
+    Text = "By @Neto.33rec";
+    Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
+Duration = 5;
 })
 
 --//Loop\\--
